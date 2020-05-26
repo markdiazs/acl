@@ -1,5 +1,5 @@
 # acl (Lista de controle de acesso)
- `trabalhando com seeder:
+ trabalhando com seeder:
 -> php artisan make:seeder PapelSeeder
 ->PermissaoSeeder
 
@@ -49,4 +49,4 @@ refatorar codigo:
 	-criar um gp protegido de rotas
 	Route::group(['middleware' => 'auth','prefix' => 'admin'], function(){
 
-})`
+})
