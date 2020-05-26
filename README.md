@@ -1,4 +1,14 @@
 # acl (Lista de controle de acesso)
+
+Lembrete:
+
+```mermaid
+graph LR
+A[Controle] --make policy--> B((Model))
+A --> C(make policy)
+B --> D{view/router}
+C --> D
+```
  trabalhando com seeder:
 -> php artisan make:seeder PapelSeeder
 ->PermissaoSeeder
